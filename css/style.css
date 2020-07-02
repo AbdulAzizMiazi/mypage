@@ -37,6 +37,11 @@ footer{
     border: 1px solid red;
 }
 */
+#img-div {
+    width: 58%;
+    overflow: hidden;
+    float: right;
+}
 h1{
     font-size: 55px;
     font-weight: 700px;
