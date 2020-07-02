@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    /*width: 960px;*/
 }
 .segment{
     padding: 0px 40px;
@@ -32,16 +31,11 @@ footer{
     float: right;
 }
 /*
-.img-div{
-    width: 55%;
-    border: 1px solid red;
-}
-*/
 #img-div {
     width: 50%;
     overflow: hidden;
     float: right;
-}
+}*/
 h1{
     font-size: 55px;
     font-weight: 700px;
