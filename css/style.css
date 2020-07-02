@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    /*width: 960px;*/
+}
+.segment{
+    padding: 0px 40px;
+}
+#bg-img-01{
+    background-image: url("../pictures/header-bg.png");
+    height: 85vh;
+}
+#bg-img-02{
+    background-image: url("../pictures/biography-bg.png");
+    height: 85vh;
+}
+#works{
+    background-image: url("../pictures/latest-work-bg.png");
+    height: 70vh;
+}
+footer{
+    background-image: url("../pictures/footer-bg.png");
+    text-align: center;
+}
+.text-div{
+    padding-top: 40px;
+    width: 40%;
+    float: left;
+}
+.text-div-sec{
+    clear: left;
+    float: right;
+}
+/*
+.img-div{
+    width: 55%;
+    border: 1px solid red;
+}
+*/
+h1{
+    font-size: 55px;
+    font-weight: 700px;
+}
+.pirple-style{
+    font-size: 65px;
+    font-weight: 800px;
+    color: rgb(223, 8, 115);
+}
+.segment p{
+    font-size: 15px;
+    text-align: justify;
+}
+.segment a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 800px;
+    background: linear-gradient(to right, rgb(243, 10, 119) 0%,rgba(252,27,65,1) 100%);
+    padding: 5px 30px;
+    border-radius: 4px;
+}
+.segment a:hover{
+    background: linear-gradient(to right, rgba(252,27,65,1) 0%,rgb(245, 4, 116) 100%);
+}
+#img-div img{
+    height: 650px;
+    margin-left: 50px;
+}
+#img-div-sec img{
+    height: 500px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+#works h2, footer h2{
+    font-size: 40px;
+    font-weight: 250;
+    text-align: center;
+    padding-top: 50px;
+}
+#pictures{
+    width: 1150px;
+    margin: 0px auto;
+}
+#works img{
+    height: 255px;
+    margin: 0px 20px;
+}
+#client, #copy-right p{
+    font-size: 16px;
+    font-weight: 120;
+    word-spacing: 5px;
+    padding-top: 35px;
+}
+#client-name{
+    font-size: 25px;
+}
+#comment{
+    font-size: 18px;
+    width: 700px;
+    margin: 40px auto;
+}
+#message-opt{
+    padding: 30px 90px;
+    background: linear-gradient(to bottom, rgb(241, 9, 117) 0%,rgba(252,27,65,1) 100%);
+    border-radius: 8px;
+    width: 650px;
+    margin: 0px auto;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+#message-opt:hover{
+    background: linear-gradient(to bottom, rgba(252,27,65,1) 0%,rgb(241, 9, 117) 100%);
+}
+/*style of the last button is in inline-style*/
+#message-opt a{
+    text-decoration: none;
+    color: white;
+}
+#copy-right p{
+    margin-bottom: 40px;
+}
